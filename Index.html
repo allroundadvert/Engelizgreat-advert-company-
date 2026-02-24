@@ -1,243 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NIGERIA ALL ROUND ADVERTISEMENT AGENCY</title>
+  <meta charset="UTF-8">
+  <title>NIGERIA ALL ROUND ADVERTISEMENT AGENCY</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Nigeria All Round Advertisement Agency - Get top-notch audio, video, AI video, TV, radio, and outdoor advertising services. Submit your ad request online.">
+  <meta name="keywords" content="advertisement, AI video, TV advert, radio advert, outdoor advert, Nigeria, marketing, promo, business promotion">
+  <meta name="author" content="Nigeria All Round Advertisement Agency">
 
-<style>
-body {
-    margin: 0;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background: #0b0b0b;
-    color: #f5f5f5;
-}
+  <!-- Structured Data for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Nigeria All Round Advertisement Agency",
+    "url": "https://your-github-pages-url.github.io/",
+    "logo": "https://raw.githubusercontent.com/allroundadvert/John-White-/d8572d17c7a6c769bf26cedf47015891fb054c17/Screenshot_20250718-205638.jpg",
+    "sameAs": [
+      "https://www.facebook.com/Nijabussinesstalkshow?mibextid=ZbWKwL",
+      "https://www.tiktok.com/@nollywoodprince1?_r=1&_t=ZS-94ATMeTTnYW"
+    ]
+  }
+  </script>
 
-header {
-    background: linear-gradient(135deg, #000, #1a1a1a);
-    text-align: center;
-    padding: 40px 20px;
-    border-bottom: 2px solid gold;
-}
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b0b0b;
+      color: #fdf5e6;
+      line-height: 1.6;
+    }
 
-header h1 {
-    color: gold;
-    font-size: 28px;
-    margin-bottom: 10px;
-}
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #0a0a0a, #FFD700);
+      border-bottom: 5px solid #FFD700;
+    }
 
-header p {
-    color: #ddd;
-    font-size: 16px;
-}
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 8px #000;
+    }
 
-.container {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-}
+    header p {
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      margin-top: 15px;
+      text-shadow: 1px 1px 6px #000;
+    }
 
-.section {
-    background: #121212;
-    padding: 25px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-    border: 1px solid #2a2a2a;
-}
+    /* Slider */
+    .slider {
+      width: 100%;
+      max-width: 1200px;
+      margin: 20px auto;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    }
 
-.section h2 {
-    color: gold;
-    margin-bottom: 15px;
-}
+    .slides {
+      display: flex;
+      width: 200%; /* 2 images */
+      animation: slide 12s infinite;
+    }
 
-label {
-    font-weight: bold;
-    color: #ccc;
-}
+    .slides a {
+      width: 50%; /* 2 images */
+      display: block;
+    }
 
-input, textarea, select {
-    width: 100%;
-    padding: 14px;
-    margin-top: 6px;
-    margin-bottom: 18px;
-    border-radius: 6px;
-    border: 1px solid #333;
-    background: #000;
-    color: #fff;
-}
+    .slides img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+    }
 
-textarea {
-    resize: none;
-}
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(-50%); }
+      100% { transform: translateX(0); }
+    }
 
-button {
-    width: 100%;
-    padding: 16px;
-    background: gold;
-    color: #000;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
 
-button:hover {
-    background: #e6c200;
-}
+    h2 {
+      color: #FFD700;
+      margin-top: 30px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      text-shadow: 1px 1px 6px #000;
+    }
 
-.contact-buttons a {
-    display: block;
-    text-align: center;
-    padding: 15px;
-    margin: 12px 0;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #fff;
-}
+    /* Static Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
 
-.call { background: #198754; }
-.whatsapp { background: #25D366; }
-.email { background: #0d6efd; }
-.facebook { background: #1877f2; }
-.tiktok { background: #000; border: 1px solid gold; }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(255,215,0,0.7);
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
 
-footer {
-    background: #000;
-    text-align: center;
-    padding: 18px;
-    border-top: 2px solid gold;
-    color: #aaa;
-}
-</style>
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(255,215,0,0.9);
+    }
 
-<script>
-function sendToWhatsApp() {
-    var advertType = document.getElementById("advertType").value;
-    var businessName = document.getElementById("businessName").value;
-    var address = document.getElementById("address").value;
-    var phone = document.getElementById("phone").value;
-    var email = document.getElementById("email").value;
-    var description = document.getElementById("description").value;
-    var aiStyle = document.getElementById("aiStyle").value;
-    var aiDuration = document.getElementById("aiDuration").value;
-    var aiVoice = document.getElementById("aiVoice").value;
+    /* Customer Request Form */
+    .request-form {
+      margin-top: 40px;
+      background-color: #111;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(255,215,0,0.4);
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-    var message =
-        "NEW ADVERT REQUEST%n%n" +
-        "Advert Type: " + advertType + "%n" +
-        "Business Name: " + businessName + "%n" +
-        "Address: " + address + "%n" +
-        "Phone: " + phone + "%n" +
-        "Email: " + email + "%n%n" +
-        "Business Description:%n" + description + "%n%n" +
-        "AI Video Details:%n" +
-        "Style: " + aiStyle + "%n" +
-        "Duration: " + aiDuration + "%n" +
-        "Voice Preference: " + aiVoice;
+    .request-form input, .request-form select, .request-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
 
-    var url = "https://wa.me/2348077063558?text=" + encodeURIComponent(message);
-    window.open(url, "_blank");
-}
-</script>
+    .request-form button {
+      background-color: #FFD700;
+      color: #000;
+      font-weight: bold;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      transition: 0.3s;
+    }
+
+    .request-form button:hover {
+      background-color: #e6c200;
+    }
+
+    /* CTA Buttons */
+    .cta-buttons {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .whatsapp-btn { background-color: #25d366; color: #000; }
+    .whatsapp-btn:hover { background-color: #1ebe5d; color: #fff; }
+    .call-btn { background-color: #0a2a66; color: #fff; border: 2px solid #FFD700; }
+    .call-btn:hover { background-color: #FFD700; color: #000; }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0a2a66;
+      color: #fdf5e6;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
+  <!-- HEADER -->
+  <header>
     <h1>NIGERIA ALL ROUND ADVERTISEMENT AGENCY</h1>
-    <p>Your One-Stop Solution for Audio, Video, AI, TV, Radio & Outdoor Advertising</p>
-</header>
+    <p>Get top-quality audio, video, AI video, TV, radio, and outdoor advertising services. Submit your ad request and watch your business grow!</p>
+  </header>
 
-<div class="container">
+  <div class="container">
 
-    <!-- Advert Type -->
-    <div class="section">
-        <h2>Select Advertisement Type</h2>
-        <select id="advertType">
-            <option>Audio Advert</option>
-            <option>Video Advert</option>
-            <option>AI Video Advert</option>
-            <option>TV Advert</option>
-            <option>Radio Advert</option>
-            <option>Outdoor Advert</option>
-            <option>Online / ITV Advert</option>
-        </select>
+    <!-- Slider -->
+    <div class="slider">
+      <div class="slides">
+        <a href="#" target="_blank">
+          <img src="https://raw.githubusercontent.com/allroundadvert/John-White-/d8572d17c7a6c769bf26cedf47015891fb054c17/Screenshot_20250718-205638.jpg" alt="Ad Example 1">
+        </a>
+        <a href="#" target="_blank">
+          <img src="https://raw.githubusercontent.com/allroundadvert/John-White-/d8572d17c7a6c769bf26cedf47015891fb054c17/Screenshot_20250718-205649.jpg" alt="Ad Example 2">
+        </a>
+      </div>
     </div>
 
-    <!-- Client Info -->
-    <div class="section">
-        <h2>Client Information</h2>
-
-        <label>Business Name</label>
-        <input id="businessName" type="text" placeholder="Your business name">
-
-        <label>Business Address</label>
-        <input id="address" type="text" placeholder="Business address">
-
-        <label>Phone Number</label>
-        <input id="phone" type="tel" placeholder="Phone number">
-
-        <label>Email Address</label>
-        <input id="email" type="email" placeholder="Email address">
-
-        <label>What do you sell?</label>
-        <textarea id="description" rows="4" placeholder="Brief description of your product or service"></textarea>
+    <!-- Static Gallery -->
+    <h2>Our Advertising Examples</h2>
+    <div class="gallery">
+      <img src="https://raw.githubusercontent.com/allroundadvert/John-White-/d8572d17c7a6c769bf26cedf47015891fb054c17/Screenshot_20250718-205710.jpg" alt="Ad Example">
+      <img src="https://raw.githubusercontent.com/allroundadvert/John-White-/d8572d17c7a6c769bf26cedf47015891fb054c17/Screenshot_20250718-205820.jpg" alt="Ad Example">
+      <img src="https://raw.githubusercontent.com/allroundadvert/John-White-/d8572d17c7a6c769bf26cedf47015891fb054c17/Screenshot_20250718-205850.jpg" alt="Ad Example">
+      <img src="https://raw.githubusercontent.com/allroundadvert/John-White-/d8572d17c7a6c769bf26cedf47015891fb054c17/Screenshot_20250718-205943.jpg" alt="Ad Example">
+      <img src="https://raw.githubusercontent.com/allroundadvert/John-White-/d8572d17c7a6c769bf26cedf47015891fb054c17/Screenshot_20250718-210701.jpg" alt="Ad Example">
+      <img src="https://raw.githubusercontent.com/allroundadvert/John-White-/d8572d17c7a6c769bf26cedf47015891fb054c17/images%20(2).jpeg" alt="Ad Example">
+      <img src="https://raw.githubusercontent.com/allroundadvert/John-White-/a8c93f32fc16f49c275d953ef87b10e9f14fd4e9/Screenshot_20250826-130552.jpg" alt="Ad Example">
+      <img src="https://raw.githubusercontent.com/allroundadvert/John-White-/a8c93f32fc16f49c275d953ef87b10e9f14fd4e9/images%20(6).jpeg" alt="Ad Example">
+      <img src="https://raw.githubusercontent.com/allroundadvert/John-White-/a8c93f32fc16f49c275d953ef87b10e9f14fd4e9/xiaomi-redmi-a3-64gb-rom-3gb-ram.jpg" alt="Ad Example">
+      <img src="https://raw.githubusercontent.com/allroundadvert/John-White-/a8c93f32fc16f49c275d953ef87b10e9f14fd4e9/Screenshot_20260219-044836.jpg" alt="Ad Example">
     </div>
 
-    <!-- AI Video Advert Section -->
-    <div class="section">
-        <h2>AI Video Advert Request</h2>
-
-        <label>Preferred AI Video Style</label>
-        <select id="aiStyle">
-            <option>Realistic</option>
-            <option>Animated</option>
-            <option>Explainer</option>
-            <option>Luxury / Cinematic</option>
-            <option>Social Media Viral</option>
-        </select>
-
-        <label>Video Duration</label>
-        <select id="aiDuration">
-            <option>8 Seconds</option>
-            <option>15 Seconds</option>
-            <option>30 Seconds</option>
-            <option>60 Seconds</option>
-        </select>
-
-        <label>Voice Preference</label>
-        <select id="aiVoice">
-            <option>Male Voice</option>
-            <option>Female Voice</option>
-            <option>No Voice (Text Only)</option>
-        </select>
+    <!-- Customer Request Form -->
+    <h2>Request Your Advertisement</h2>
+    <div class="request-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="text" id="business" placeholder="Business Name" required>
+      <input type="text" id="phone" placeholder="Phone Number" required>
+      <input type="text" id="email" placeholder="Email (optional)">
+      <input type="text" id="product" placeholder="Product/Service Name" required>
+      <input type="text" id="spec" placeholder="Product/Service Details" required>
+      <input type="text" id="deadline" placeholder="When do you need it?" required>
+      <select id="adtype" required>
+        <option value="">Select Advertisement Type</option>
+        <option value="Audio">Audio Advert</option>
+        <option value="Video">Video Advert</option>
+        <option value="AI Video">AI Video Advert</option>
+        <option value="TV">TV Advert</option>
+        <option value="Radio">Radio Advert</option>
+        <option value="Outdoor">Outdoor Advert</option>
+      </select>
+      <textarea id="notes" placeholder="Additional Notes"></textarea>
+      <button onclick="submitWhatsApp()">Submit Request via WhatsApp</button>
     </div>
 
-    <!-- Submit -->
-    <div class="section">
-        <button onclick="sendToWhatsApp()">Submit & Send to WhatsApp</button>
+    <!-- CTA Buttons -->
+    <div class="cta-buttons">
+      <a class="whatsapp-btn" href="https://wa.me/2348077063558" target="_blank">💬 Chat on WhatsApp</a>
+      <a class="call-btn" href="tel:08077063558">📞 Call Now</a>
     </div>
 
-    <!-- Contact Buttons -->
-    <div class="section">
-        <h2>Contact Us Instantly</h2>
+  </div>
 
-        <div class="contact-buttons">
-            <a href="tel:08077063558" class="call">📞 Call: 08077063558</a>
-            <a href="https://wa.me/2348077063558" class="whatsapp">💬 WhatsApp Us</a>
-            <a href="mailto:worshipmove@gmail.com" class="email">📧 Email Us</a>
-            <a href="https://www.facebook.com/Nijabussinesstalkshow?mibextid=ZbWKwL" class="facebook">📘 Facebook</a>
-            <a href="https://www.tiktok.com/@nollywoodprince1?_r=1&_t=ZS-94ATMeTTnYW" class="tiktok">🎵 TikTok</a>
-        </div>
-    </div>
+  <footer>
+    © 2026 NIGERIA ALL ROUND ADVERTISEMENT AGENCY
+  </footer>
 
-</div>
+  <script>
+    function submitWhatsApp() {
+      let name = encodeURIComponent(document.getElementById('name').value);
+      let business = encodeURIComponent(document.getElementById('business').value);
+      let phone = encodeURIComponent(document.getElementById('phone').value);
+      let email = encodeURIComponent(document.getElementById('email').value);
+      let product = encodeURIComponent(document.getElementById('product').value);
+      let spec = encodeURIComponent(document.getElementById('spec').value);
+      let deadline = encodeURIComponent(document.getElementById('deadline').value);
+      let adtype = encodeURIComponent(document.getElementById('adtype').value);
+      let notes = encodeURIComponent(document.getElementById('notes').value);
 
-<footer>
-    <p>© 2026 | NIGERIA ALL ROUND ADVERTISEMENT AGENCY</p>
-</footer>
+      if(!name || !business || !phone || !product || !spec || !deadline || !adtype) {
+        alert("Please fill all required fields.");
+        return;
+      }
+
+      let message = `Hello! I would like to request an advertisement:\n\nName: ${name}\nBusiness: ${business}\nPhone: ${phone}\nEmail: ${email}\nProduct/Service: ${product}\nDetails: ${spec}\nDeadline: ${deadline}\nType of Advert: ${adtype}\nNotes: ${notes}`;
+
+      window.open(`https://wa.me/2348077063558?text=${message}`, '_blank');
+    }
+  </script>
 
 </body>
 </html>
